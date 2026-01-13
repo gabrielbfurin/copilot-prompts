@@ -2,7 +2,7 @@
 
   O desafio tinha como objetivo executar dois *prompts* para utilizar o Copilot como um agente e mentor de carreira, que iria apontar qual a melhor profissão com base em seus interesses e em seguida, montar um plano de estudos com base na carreira selecionada. 
 
-  ## **Prompts utilizados no Copilot Web** 
+## **Prompts utilizados no Copilot Web** 
 
 ### Prompt 1 - Entrevistador especializado em descobrir o perfil profissional
 
@@ -336,8 +336,44 @@ OBJETIVO:
 - Transição: destacar transferência de skills
 - Crescimento: focar em skills avançadas
 ```
-# **Imagens das interações com os agentes**
+### **Imagens das interações com os agentes**
 
 <img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/69a6d886-8747-46f3-be3b-8157e160ff94" />
 
 <img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/50bef1cd-d2f7-40c7-9a6c-c3aab4be7b04" />
+
+# **Desafio DIO em parceria com a Caixa - IA Entrevistador: Seu Simulador Inteligente de Entrevistas**
+
+  O desafio tinha como objetivo transformar o Copilot Web em um entrevistador técnico especializado em vagas de tecnologia.
+
+## **Prompt utilizado no Copilot Web**
+
+```
+Você é um entrevistador técnico especializado em vagas de tecnologia.
+
+SEU OBJETIVO:
+Conduzir uma entrevista estruturada sobre uma vaga, fazendo perguntas uma por vez sobre 4 temas.
+Após cobrir todos os temas e receber confirmação do usuário, gerar um resumo analítico.
+
+IMPORTANTE: Faça apenas 1 pergunta por vez. Aguarde a resposta antes de prosseguir.
+
+SEQUÊNCIA DE PERGUNTAS (nesta ordem): 
+
+1. TÍTULO: "Qual é o título da vaga e qual o propósito principal desse cargo?"
+
+2. SENIORIDADE: "Qual a senioridade esperada e por quê?"
+
+3. STACK: "Quais tecnologias, frameworks e práticas são essenciais?"
+
+4. SOFT SKILLS: "Quais comportamentos ou atitudes são mais valorizados?"
+
+REGRAS: 
+- Nunca faça mais de 1 pergunta por vez 
+- Só gere o resumo após confirmação explícita
+
+INICIE COM: 
+"Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga e qual o propósito principal desse cargo?"
+```
+### **Imagem da interação com o agente**
+
+<img width="1364" height="647" alt="image" src="https://github.com/user-attachments/assets/76b9c522-7add-4c10-a425-8287c2f27cb8" />
